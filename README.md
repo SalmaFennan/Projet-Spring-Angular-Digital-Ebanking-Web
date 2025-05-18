@@ -1,59 +1,64 @@
-# EbankingWeb
+# EbankingWebFrontend - Gestion de Comptes Bancaires (Angular)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+# Description du projet
 
-## Development server
+Cette partie frontend de l'application permet de gérer les comptes bancaires et les clients à travers une interface utilisateur intuitive. 
+Elle utilise Angular pour consommer les API REST fournies par le backend Spring Boot.
 
-To start a local development server, run:
+# Fonctionnalités principales
 
-```bash
+**Gestion des customers :** création, modification, suppression, recherche.
+
+**Gestion des comptes bancaires :** ajout, consultation, mise à jour, suppression.
+
+
+## Prérequis
+
+Node.js (version 18 ou supérieure)
+
+Angular CLI
+
+Backend en cours d'exécution (port 8085)
+
+Installation d'Angular CLI
+
+npm install -g @angular/cli
+
+## Installez les dépendances :
+
+npm install
+
+Lancement de l'application
+
+Lancez l'application en mode développement :
+
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Accédez à l'interface sur :
 
-## Code scaffolding
+http://localhost:4200
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Structure du projet
 
-```bash
-ng generate component component-name
-```
+![structure de projet](images/structure1.png)
+![structure de projet](images/structure2.png)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Technologies utilisées
 
-```bash
-ng generate --help
-```
+Angular 16
 
-## Building
+TypeScript
 
-To build the project run:
+Tailwind CSS
 
-```bash
-ng build
-```
+JWT pour l'authentification
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## Interfaces
+![interface des customers](images/customers.png)
+![interface pour enregistrer un customer](images/save.png)
+![interface pour chercher](images/search.png)
+![interface pour supprimer un customer](images/delete.png)
 
-## Running unit tests
+## Auteur
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+FENNAN Salma
