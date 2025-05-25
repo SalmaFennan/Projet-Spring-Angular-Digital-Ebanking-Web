@@ -40,7 +40,7 @@ export class CustomersComponent implements OnInit {
     );
   }
 
-  handleDeleteCustomer(c:Customer) {
+  handleDeleteCustomer(c: Customer) {
     this.customerService.deleteCustomers(c.id).subscribe({
       next:(resp)=>{
         this.handleSearchCustomers();},

@@ -1,1 +1,22 @@
-<p>accounts works!</p>
+<div class="container mt-3">
+  <h3>Accounts</h3>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>ID</th><th>Type</th><th>Balance</th><th>Currency</th><th>Customer</th><th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let acc of accounts$ | async">
+      <td>{{acc.id}}</td>
+      <td>{{acc.type}}</td>
+      <td>{{acc.balance}}</td>
+      <td>{{acc.currency}}</td>
+      <td>{{acc.customerId}}</td>
+      <td>
+        <button class="btn btn-danger" (click)="deleteAccount(acc.id!)">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
