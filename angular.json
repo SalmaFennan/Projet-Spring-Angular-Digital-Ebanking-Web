@@ -90,8 +90,11 @@
               }
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
+              {
+                "input": "node_modules/bootstrap-icons/font/bootstrap-icons.css",
+                "inject": true,
+                "bundleName": "bootstrap-icons"
+              }
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
