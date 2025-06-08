@@ -1,0 +1,84 @@
+/* ======== Global Styles ======== */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ======== Layout Container ======== */
+.container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+}
+
+/* ======== Card Styles ======== */
+.card {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* ======== Card Header ======== */
+.card-header {
+  background-color: #0e71c2;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+/* ======== Card Body ======== */
+.card-body {
+  padding: 1.75rem;
+}
+
+/* ======== Form Elements ======== */
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 1rem;
+}
+
+.form-control:focus {
+  border-color: #28a745;
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+}
+
+/* ======== Button ======== */
+.btn-success {
+  display: inline-block;
+  width: 100%;
+  padding: 0.65rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
