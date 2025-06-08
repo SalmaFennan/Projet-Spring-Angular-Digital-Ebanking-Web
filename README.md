@@ -54,15 +54,13 @@ Tailwind CSS
 JWT pour l'authentification
 
 ## Interfaces
-![interface des customers](images/structure1.png)
-![interface des customers](images/structure2.png)
-![interface des customers](images/p1.jpg)
-![interface des customers](images/p2.jpg)
-![interface des customers](images/p3.jpg)
-![interface des customers](images/p4.jpg)
-![interface des customers](images/P5.jpg)
-![interface des customers](images/p6.jpg)
-![interface des customers](images/p7.jpg)
+![interface ](images/p1.jpg)
+![interface ](images/p2.jpg)
+![interface](images/p3.jpg)
+![interface ](images/p4.jpg)
+![interface ](images/P5.jpg)
+![interface ](images/p6.jpg)
+![interface ](images/p7.jpg)
 
 
 
